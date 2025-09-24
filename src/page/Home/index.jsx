@@ -4,9 +4,8 @@ import Hadith from "./Hadith";
 import CoursesOffered from "./CoursesOffered";
 import { InfiniteMovingCardsDemo } from "../../component/Card";
 import Anthem from "./Anthem";
-import { CarouselDemo } from "../../component/carousel";
+// import { CarouselDemo } from "../../component/carousel";
 import HomeHeading from "./HomeHeading";
-import LearningOptions from "./LearningOption";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       {/* <CarouselDemo /> */}
       <Hadith />
       <CoursesOffered />
-      {/* <LearningOptions /> */}
       <Propietor />
       <Anthem />
       <InfiniteMovingCardsDemo />

@@ -31,10 +31,10 @@ const About = () => {
             </h1>
             <p className="text-gray-600 text-[0.7rem] md:text-[1rem]">
               Established with the vision to provide authentic Islamic
-              education,{" "}
+              education,
               <span className="font-semibold text-sky-700">
                 MARKAZ NUURIL BAYAN
-              </span>{" "}
+              </span>
               has been serving the community for years, building strong
               foundations of faith and knowledge and also blending students to
               be among the best.

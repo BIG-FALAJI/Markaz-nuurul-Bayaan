@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
 import { Link, useLocation } from "react-router";
 import { allPaths } from "../../Route/paths";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/Logo.jpg";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
