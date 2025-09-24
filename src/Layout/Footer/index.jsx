@@ -38,6 +38,9 @@ const Footer = () => {
             <li>
               <Link to={allPaths.contact}>Contact</Link>
             </li>
+            <li>
+              <Link to={allPaths.faq}>Faq</Link>
+            </li>
           </ul>
         </div>
 
@@ -60,7 +63,8 @@ const Footer = () => {
       {/* Bottom copyright */}
       <div className="mx-auto border-t border-white py-2 md:py-4 w-[95%] text-xs md:text-base">
         <h1 className="text-center">
-          &copy; 2025 MARKAZ NUURUL BAYAN. All rights reserved.
+          &copy; {new Date().getFullYear()} MARKAZ NUURUL BAYAN. All rights
+          reserved.
         </h1>
       </div>
     </footer>

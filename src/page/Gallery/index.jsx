@@ -40,9 +40,9 @@ const Gallery = () => {
         <Modal>
           <div
             onClick={() => setSelectedImage(null)}
-            className="fixed inset-0 bg-black/30 bg-opacity-70 flex items-center justify-start md:justify-center z-50"
+            className="fixed inset-0 top-24 bg-black/30 flex items-start md:items-center justify-center z-50 p-4"
           >
-            <div className="relative bg-white p-4 rounded-xl shadow-lg max-w-3xl">
+            <div className="relative bg-white p-4 rounded-xl shadow-lg max-w-3xl w-full">
               {/* Close button */}
               <button
                 className="absolute top-2 right-2 text-white p-1 rounded-full bg-sky-500"
@@ -55,7 +55,7 @@ const Gallery = () => {
               <img
                 src={selectedImage.image}
                 alt={selectedImage.title}
-                className="max-h-[80vh] max-w-full rounded-lg object-contain"
+                className="max-h-[80vh] max-w-full rounded-lg object-contain mx-auto"
               />
               <p className="text-center mt-2 text-sky-700 font-semibold">
                 {selectedImage.title}
