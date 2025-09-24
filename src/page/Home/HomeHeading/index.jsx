@@ -18,7 +18,7 @@ const HomeHeading = () => {
           className="text-[3rem] md:text-[4rem] font-bold shadow-md font-serif"
           style={{ textShadow: "3px 3px 10px skyblue" }}
         >
-          MARKAZ NUURUL BAYAN
+          MARKAZ NUURIL BAYAN
         </h1>
         <p className="text-[1.2rem] md:text-[1.5rem] font-semibold mt-2 md:mt-6 font-san">
           Nurturing Knowledge & Faith

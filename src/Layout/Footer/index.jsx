@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Section 1 - About */}
         <div className="basis-full md:basis-1/2">
           <h1 className="font-bold text-sm md:text-2xl mb-2 md:mb-3">
-            MARKAZ NUURUL BAYAN
+            MARKAZ NUURIL BAYAN
           </h1>
           <p className="text-xs md:text-base leading-relaxed">
             Nurturing Knowledge & Faith through authentic Islamic education. We
@@ -63,7 +63,7 @@ const Footer = () => {
       {/* Bottom copyright */}
       <div className="mx-auto border-t border-white py-2 md:py-4 w-[95%] text-xs md:text-base">
         <h1 className="text-center">
-          &copy; {new Date().getFullYear()} MARKAZ NUURUL BAYAN. All rights
+          &copy; {new Date().getFullYear()} MARKAZ NUURIL BAYAN. All rights
           reserved.
         </h1>
       </div>

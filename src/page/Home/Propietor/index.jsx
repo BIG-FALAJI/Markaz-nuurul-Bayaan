@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import mudeer from "../../../assets/Mudeer_MarkazNuurulBayaan.jpg";
+// import mudeer from "../../../assets/Mudeer_MarkazNuurulBayaan.jpg";
+import mudeer from "../../../assets/Mudeer.jpg";
 
 const Propietor = () => {
   const [seeMore, setSeeMore] = useState(false);

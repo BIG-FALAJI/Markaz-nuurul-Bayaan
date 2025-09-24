@@ -3,6 +3,7 @@ import { FaRegHeart } from "react-icons/fa6";
 import { GiStripedSun } from "react-icons/gi";
 import { GoBook } from "react-icons/go";
 import SchoolRules from "./SchoolRules";
+import LearningOptions from "../Home/LearningOption";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
     >
       <div>
         <h1 className="text-center text-sky-700 font-serif font-bold md:text-[2.5rem]">
-          About MARKAZ NUURUL BAYAN
+          About MARKAZ NUURIL BAYAN
         </h1>
         <p className="text-center max-w-2xl mx-auto text-gray-600 mb-10 text-sm md:text-base leading-relaxed">
           A beacon of Islamic education, dedicated to nurturing young minds with
@@ -30,9 +31,13 @@ const About = () => {
             </h1>
             <p className="text-gray-600 text-[0.7rem] md:text-[1rem]">
               Established with the vision to provide authentic Islamic
-              education, MARKAZ NUURUL BAYAN has been serving the community for
-              years, building strong foundations of faith and knowledge and also
-              blending students to be among the best.
+              education,{" "}
+              <span className="font-semibold text-sky-700">
+                MARKAZ NUURIL BAYAN
+              </span>{" "}
+              has been serving the community for years, building strong
+              foundations of faith and knowledge and also blending students to
+              be among the best.
             </p>
           </li>
           <li className="flex flex-col items-center gap-6 bg-white border border-sky-400 text-center px-4 py-6 rounded-2xl ">
@@ -60,10 +65,10 @@ const About = () => {
         </ul>
       </div>
 
-      {/* Why Choose MARKAZ NUURUL BAYAN? */}
+      {/* Why Choose MARKAZ NUURIL BAYAN? */}
       <div className="w-[80%] mx-auto bg-white rounded-2xl border border-sky-400 py-9 ">
         <h1 className="text-center text-sky-700 mb-7 font-serif font-bold md:text-[1.4rem] px-6 md:px-10 ">
-          Why Choose MARKAZ NUURUL BAYAN?
+          Why Choose MARKAZ NUURIL BAYAN?
         </h1>
         <ul className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 px-6 md:px-10">
           <li className=" ">
@@ -105,6 +110,7 @@ const About = () => {
           </li>
         </ul>
       </div>
+      <LearningOptions />
       <SchoolRules />
     </div>
   );
