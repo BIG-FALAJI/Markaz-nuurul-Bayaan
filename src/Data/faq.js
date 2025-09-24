@@ -30,19 +30,9 @@ const faqs = [
       "You can apply by clicking on the whatsApp icon on our website to chart with the ofice or by visiting the Madrasah office directly.",
   },
   {
-    question: "Are parents required to attend meetings?",
-    awnser:
-      "Yes, parents and guardians are expected to attend Parent-Teacher Association (PTA) meetings to stay updated on their children’s progress.",
-  },
-  {
     question: "What happens if a student breaks school rules?",
     awnser:
       "Students who break school rules will face disciplinary action, which may include punishment, suspension, or expulsion depending on the severity.",
-  },
-  {
-    question: "Is stealing tolerated in the Madrasah?",
-    awnser:
-      "No, stealing is strictly prohibited. Any student caught will face serious consequences, as honesty is a key Islamic value.",
   },
   {
     question: "What are the class schedules?",
