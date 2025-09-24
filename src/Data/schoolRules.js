@@ -1,0 +1,20 @@
+export const schoolRules = [
+  "Students eligible for admission are boys between the ages of 10 and 30, and girls between the ages of 7 and 20.",
+  "Students are admitted at the request and consent of their parents or guardians.",
+  "All parents or guardians must attend the Parent-Teacher Association (P.T.A.) meetings.",
+  "School and hostel fees must be paid on time into the school’s official account.",
+
+  "Students must possess good moral character and conduct.",
+  "All students are required to obey the rules and regulations of the school.",
+  "Students must observe the five daily prayers in congregation, actively participate in hostel activities, and take part fully in hostel life.",
+  "Students are expected to be well-mannered, obedient, and to associate with good companions.",
+  "Every student must be in good health and demonstrate a willingness to learn.",
+  "Students must study all that they are taught and ask questions about anything they do not understand, as this will help them improve more quickly and effectively.",
+  "Junior students must respect their seniors and not disobey them, as respect is very important.",
+  "Permission must be obtained from the school office before being absent from school, class, hostel, or any official function.",
+  "Class commences from 8:15am and ends at 2:00pm (morning session) and from 4:00pm to 6:00pm (afternoon session).",
+  "Students must possess all required school materials, including uniforms, white caps, textbooks (Tira), exercise books, pens, pencils, and hostel items such as a wardrobe and other necessary stationery.",
+  "All boarding students are strictly forbidden from leaving the hostel compound after 10:00pm, except for senior students who may be permitted under special circumstances.",
+  "Stealing is strictly prohibited. Any student found guilty of stealing shall face severe consequences.",
+  "Any student who disobeys the school rules will face disciplinary action, which may include punishment, suspension, or expulsion.",
+];
