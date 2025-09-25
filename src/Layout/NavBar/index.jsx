@@ -23,7 +23,7 @@ const NavBar = () => {
   return (
     <div
       data-aos="zoom-in"
-      className="flex justify-between items-center px-5 md:px-10 py-3 md:py-5 bg-sky-500 text-white w-full fixed z-50 border-b border-sky-950"
+      className="flex justify-between items-center px-5 md:px-10 py-3 md:py-5 bg-sky-500/80 backdrop-blur-md text-white w-full fixed z-50 border-b border-sky-950"
     >
       {/* Logo + Title */}
       <Link to={allPaths.home} className="flex gap-3 items-center">
